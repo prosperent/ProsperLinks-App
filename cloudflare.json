@@ -1,0 +1,130 @@
+{
+    "description": "Monetize your content without compromising your site design or user experience with Prosperent ProsperLinks. Once turned on, ProsperLinks will automatically evaluate your on-page content and convert product references to affiliated links that earns you revenue with every sale.",
+    "main": "public/javascripts/plink.js",
+    "name": "Prosperent ProsperLinks",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/prosperent/ProsperLinks-App.git"
+    },
+    "version": "0.0.1",
+    "config":{
+        "assets":{
+            "logos": {
+                "132px": "./public/images/logo-132.png",
+                "200px": "./public/images/logo-200.png"
+            },
+            "detail_page": [
+                "./public/images/example.png"
+            ]
+        },
+        "details":{
+            "Category": "Content Monetization",
+            "Language": "English",
+            "Price": "Free to install. 30% of earnings are kept by Prosperent.",
+            "Restrictions": "According to the FTC's 16 CFR &sect; 255.5, you are required to disclose your use of revenue generating links to your readers. Read more details <a href='http://prosperent.com/policies/ftc'>here</a>.",
+            "Prosperent": "<a href='http://prosperent.com/terms'>Terms and Conditions</a>
+        },
+        "interface": [
+            {
+                "id": "pl_underline",
+                "type": "select",
+                "name": "Link Underline",
+                "description": "Choose the type of underline the affiliated links will have.",
+                "options": [
+                    {
+                        "label": "Single Underline",
+                        "value": 1
+                    },
+                    {
+                        "label": "Double Underline",
+                        "value": 2
+                    },
+                    {
+                        "label": "None",
+                        "value": "none"
+                    }
+                ]
+            },
+            {
+                "id": "pl_hoverBox",
+                "type": "select",
+                "name": "Hover Box",
+                "description": "Choose whether the affiliated links utilize a product description hover box.",
+                "options": [
+                    {
+                        "label": "On",
+                        "value": 1
+                    },
+                    {
+                        "label": "Off",
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "id": "pl_limit",
+                "type": "select",
+                "name": "Link Limit",
+                "description": "Set the maximum number of ProsperLinks to create.",
+                "options": [
+                    {
+                        "label": "1",
+                        "value": 1
+                    },
+                    {
+                        "label": "2",
+                        "value": 2
+                    },
+                    {
+                        "label": "3",
+                        "value": 3
+                    },
+                    {
+                        "label": "4",
+                        "value": 4
+                    },
+                    {
+                        "label": "5",
+                        "value": 5
+                    },
+                    {
+                        "label": "6",
+                        "value": 6
+                    },
+                    {
+                        "label": "7",
+                        "value": 7
+                    },
+                    {
+                        "label": "8",
+                        "value": 8
+                    },
+                    {
+                        "label": "9",
+                        "value": 9
+                    },
+                    {
+                        "label": "10",
+                        "value": 10
+                    }
+                ]
+            },
+            {
+                "id": "pl_enableLinkAffiliation",
+                "type": "select",
+                "name": "Link Affiliation",
+                "description": "Choose whether to automatically convert links to external merchants to affiliated links.",
+                "options": [
+                    {
+                        "label": "On",
+                        "value": 1
+                    },
+                    {
+                        "label": "Off",
+                        "value": 0
+                    }
+                ]
+            }
+        ]
+    }
+}
