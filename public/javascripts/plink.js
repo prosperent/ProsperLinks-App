@@ -1,4 +1,4 @@
-CloudFlare.define("prosperlinks", ["prosperlinks/config", "cloudflare/config", "cloudflare/user"], function(_config, _cfconfig, _user)
+CloudFlare.define("prosperlinks", ["prosperlinks/config", "cloudflare/config", "cloudflare/user", "cloudflare/jquery1.7"], function(_config, _cfconfig, _user, jqP)
 {
     console.debug(_config);
     console.debug(_cfconfig);
