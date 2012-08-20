@@ -1,7 +1,7 @@
 {
     "description": "Monetize your content without compromising your site design or user experience with Prosperent ProsperLinks. Once turned on, ProsperLinks will automatically evaluate your on-page content and convert product references to affiliated links that earns you revenue with every sale.",
     "main": "public/javascripts/plink.js",
-    "name": "Prosperent ProsperLinks",
+    "name": "ProsperLinks",
     "repository": {
         "type": "git",
         "url": "https://github.com/prosperent/ProsperLinks-App.git"
@@ -20,9 +20,9 @@
         "details":{
             "Category": "Content Monetization",
             "Language": "English",
-            "Price": "Free to install. 30% of earnings are kept by Prosperent.",
-            "Restrictions": "According to the FTC's 16 CFR &sect; 255.5, you are required to disclose your use of revenue generating links to your readers. Read more details <a href='http://prosperent.com/policies/ftc'>here</a>.",
-            "Prosperent": "<a href='http://prosperent.com/terms'>Terms and Conditions</a>"
+            "Price": "Free to install. 20% - 30% of earnings are kept by Prosperent.",
+            "Restrictions": "According to the FTC's 16 CFR &sect; 255.5, you are required to disclose your use of revenue generating links to your readers. Read more details <a href='http://prosperent.com/policies/ftc' target='_blank'>here</a>.",
+            "Prosperent": "<a href='http://prosperent.com/terms' target='_blank'>Terms and Conditions</a>"
         },
         "interface": [
             {
@@ -33,7 +33,8 @@
                 "options": [
                     {
                         "label": "Single Underline",
-                        "value": 1
+                        "value": 1,
+                        "selected": true
                     },
                     {
                         "label": "Double Underline",
@@ -57,7 +58,8 @@
                     },
                     {
                         "label": "Off",
-                        "value": 0
+                        "value": 0,
+                        "selected": true
                     }
                 ]
             },
@@ -65,7 +67,7 @@
                 "id": "pl_limit",
                 "type": "select",
                 "name": "Link Limit",
-                "description": "Set the maximum number of ProsperLinks to create.",
+                "description": "Set the maximum number of ProsperLinks to create on any given page.",
                 "options": [
                     {
                         "label": "1",
@@ -85,7 +87,8 @@
                     },
                     {
                         "label": "5",
-                        "value": 5
+                        "value": 5,
+                        "selected": true
                     },
                     {
                         "label": "6",
@@ -117,7 +120,8 @@
                 "options": [
                     {
                         "label": "On",
-                        "value": 1
+                        "value": 1,
+                        "selected": true
                     },
                     {
                         "label": "Off",
