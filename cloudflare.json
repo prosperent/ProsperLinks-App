@@ -1,5 +1,5 @@
 {
-    "description": "Monetize your content without compromising your site design or user experience with Prosperent ProsperLinks. Once turned on, ProsperLinks will automatically evaluate your on-page content and convert product references to affiliated links that earns you revenue with every sale.",
+    "description": "Monetize your content without compromising your site design or user experience with Prosperent ProsperLinks. Once turned on, ProsperLinks will automatically evaluate your on-page content and convert product references to affiliated links that earn you revenue with every sale.",
     "main": "public/javascripts/plink.js",
     "name": "ProsperLinks",
     "repository": {
@@ -20,8 +20,8 @@
         "details":{
             "Category": "Content Monetization",
             "Language": "English",
-            "Price": "Free to install. 20% - 30% of earnings are kept by Prosperent.",
-            "Restrictions": "According to the FTC's 16 CFR &sect; 255.5, you are required to disclose your use of revenue generating links to your readers. Read more details <a href='http://prosperent.com/policies/ftc' target='_blank'>here</a>.",
+            "Price": "Free to install. 70% of revenue paid to website owner.",
+            "Restrictions": "Website owners from all countries are welcome, however it should be known: ads are served from US advertisers and are in English.<br><br>According to the FTC's 16 CFR &sect; 255.5, you are required to disclose your use of revenue generating links to your readers. Read more details <a href='http://prosperent.com/policies/ftc' target='_blank'>here</a>.",
             "Prosperent": "<a href='http://prosperent.com/terms' target='_blank'>Terms and Conditions</a>"
         },
         "interface": [
