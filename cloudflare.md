@@ -24,4 +24,4 @@ Dig deeper into your sales data and conversions and find out what it is that you
 
 ### Payments
 
-Payments are handled by CloudFlare ...
+CloudFlare will pay publishers directly, on a net-60 day basis. Revenue accrued in March will be paid by the end of May, for example. Payments are made at the end of each month.
