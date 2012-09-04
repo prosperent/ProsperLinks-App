@@ -6,7 +6,7 @@
         "type": "git",
         "url": "https://github.com/prosperent/ProsperLinks-App.git"
     },
-    "version": "0.0.7",
+    "version": "0.0.8",
     "config":{
         "assets":{
             "logos": {
