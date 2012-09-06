@@ -6,7 +6,7 @@
         "type": "git",
         "url": "https://github.com/prosperent/ProsperLinks-App.git"
     },
-    "version": "0.0.9",
+    "version": "0.0.10",
     "account": {
         "callback_url": "http://prosperent.com/cf/",
         "user_fields": ["email"]
