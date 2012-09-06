@@ -1,5 +1,6 @@
 {
     "description": "Monetize your content without compromising your site design or user experience with Prosperent ProsperLinks. Once turned on, ProsperLinks will automatically evaluate your on-page content and convert product references to affiliated links that earn you revenue with every sale.",
+    "keywords": ["affiliate links"],
     "main": "public/javascripts/plink.js",
     "name": "ProsperLinks",
     "repository": {
