@@ -7,7 +7,7 @@
         "type": "git",
         "url": "https://github.com/prosperent/ProsperLinks-App.git"
     },
-    "version": "0.0.11",
+    "version": "0.1.0",
     "account": {
         "callback_url": "https://prosperent.com/cf",
         "user_fields": ["email"]
@@ -59,13 +59,13 @@
                 "description": "Choose whether the affiliated links utilize a product description hover box.",
                 "options": [
                     {
-                        "label": "On",
-                        "value": 1
-                    },
-                    {
                         "label": "Off",
                         "value": 0,
                         "selected": true
+                    },
+                    {
+                        "label": "On",
+                        "value": 1
                     }
                 ]
             },
@@ -75,6 +75,11 @@
                 "name": "Link Limit",
                 "description": "Set the maximum number of ProsperLinks to create on any given page.",
                 "options": [
+                    {
+                        "label": "5",
+                        "value": 5,
+                        "selected": true
+                    },
                     {
                         "label": "1",
                         "value": 1
@@ -90,11 +95,6 @@
                     {
                         "label": "4",
                         "value": 4
-                    },
-                    {
-                        "label": "5",
-                        "value": 5,
-                        "selected": true
                     },
                     {
                         "label": "6",
