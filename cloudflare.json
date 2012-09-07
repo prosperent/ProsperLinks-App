@@ -9,7 +9,7 @@
     },
     "version": "0.0.11",
     "account": {
-        "callback_url": "http://prosperent.com/cf/",
+        "callback_url": "https://prosperent.com/cf",
         "user_fields": ["email"]
     },
     "config":{
