@@ -135,6 +135,23 @@
                         "value": 0
                     }
                 ]
+            },
+            {
+                "id": "pl_hoverAds",
+                "type": "select",
+                "name": "Hover Ads",
+                "description": "As an additional source of revenue, enable our closeable Performance Ads to hover at the bottom of your page.",
+                "options": [
+                    {
+                        "label": "On",
+                        "value": 1,
+                        "selected": true
+                    },
+                    {
+                        "label": "Off",
+                        "value": 0
+                    }
+                ]
             }
         ]
     }
