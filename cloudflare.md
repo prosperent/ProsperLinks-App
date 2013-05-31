@@ -1,10 +1,10 @@
-Prosperent ProsperLinks is a very simple way to **earn extra revenue on your content** without diminishing your readers' experience. When enabled and configured, it works instantly by analyzing your page content and turning product references into affiliated links. Additionally, ProsperLinks automatically affiliates existing links in your content. You get paid when your readers make a purchase!!
+Prosperent ProsperLinks is a very simple way to **earn extra revenue on your content** without diminishing your visitors' experience. When enabled and configured, it works instantly by analyzing your page content and turning product references into affiliated links. Additionally, ProsperLinks automatically affiliates existing links in your content. You get paid when your visitors make a purchase!
 
 ![ProsperLinks example](/images/apps/prosperlinks/plink-example.png)
 
 ### What is Prosperent?
 
-Prosperent is an advertising company that specializes in retail and product advertising. With over 3,000 merchants including Zappos.com, 6pm, Overstock.com, Backcountry, REI, Nordstrom's and thousands of other retailers, Prosperent makes the best products available through their advertising products, and improves profitability for publishers.
+Prosperent is an advertising company that specializes in retail and product advertising. With over 3,000 merchants including Nordstrom, Zappos.com, 6pm, Overstock.com, Backcountry, REI and thousands of other retailers, Prosperent makes the best products available through their advertising products, and improves profitability for publishers.
 
 ### How It Works
 
@@ -14,11 +14,12 @@ Prosperent is an advertising company that specializes in retail and product adve
     + **Hover Box:** Whether to show the hover box or not when the links are moused over;
     + **Link Limit:** How many links, maximum, ProsperLinks should create on any given page;
     + **Link Affiliation:** Whether ProsperLinks should automatically convert existing links to other sites into affiliated links.
+    + **Hover Ads:** When enabled, a floating Performance Ad will appear at the bottom of your pages. This ad will be as relevant as possible to the content on each of your pages.
 3. ProsperLinks works instantly! All outbound links and clicks are tracked by Prosperent.
 
 ### Fully-Featured Analytics
 
-Dig deeper into your sales data and conversions and find out what it is that your readers are buying. Keep track on changes made and how new content is affecting your bottom line with automatic comparison reporting:
+Dig deeper into your sales data and conversions and find out what it is that your visitors are buying. Keep track on changes made and how new content is affecting your bottom line with automatic comparison reporting:
 
 ![ProsperLinks Analytics](/images/apps/prosperlinks/analytics.png)
 
