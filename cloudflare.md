@@ -13,7 +13,7 @@ Prosperent ProsperLinks is a very simple way to **earn extra revenue on your con
     + **Hover Ads:** When enabled, a floating Performance Ad will appear at the bottom of your pages. This ad will be as relevant as possible to the content on each of your pages.
 3. ProsperLinks works instantly! All outbound links and clicks are tracked by Prosperent.
 
-### Performance Ads
+### Performance Ads (Hover Ads Option)
 
 When the **Hover Ads** option is enabled, a Prosperent Performance Ad will be hovered at the bottom of your pages and products relevant to the content and/or conversation on page will be displayed:
 
