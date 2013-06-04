@@ -2,10 +2,6 @@ Prosperent ProsperLinks is a very simple way to **earn extra revenue on your con
 
 ![ProsperLinks example](/images/apps/prosperlinks/plink-example.png)
 
-### What is Prosperent?
-
-Prosperent is an advertising company that specializes in retail and product advertising. With over 3,000 merchants including Nordstrom, Zappos.com, 6pm, Overstock.com, Backcountry, REI and thousands of other retailers, Prosperent makes the best products available through their advertising products, and improves profitability for publishers.
-
 ### How It Works
 
 1. Enable the ProsperLinks App in your CloudFlare Apps Manager.
@@ -17,11 +13,21 @@ Prosperent is an advertising company that specializes in retail and product adve
     + **Hover Ads:** When enabled, a floating Performance Ad will appear at the bottom of your pages. This ad will be as relevant as possible to the content on each of your pages.
 3. ProsperLinks works instantly! All outbound links and clicks are tracked by Prosperent.
 
+### Performance Ads
+
+When the **Hover Ads** option is enabled, a Prosperent Performance Ad will be hovered at the bottom of your pages and products relevant to the content and/or conversation on page will be displayed:
+
+![Prosperent Performance Ad](/images/apps/prosperlinks/pa-example.png)
+
 ### Fully-Featured Analytics
 
 Dig deeper into your sales data and conversions and find out what it is that your visitors are buying. Keep track on changes made and how new content is affecting your bottom line with automatic comparison reporting:
 
 ![ProsperLinks Analytics](/images/apps/prosperlinks/analytics.png)
+
+### What is Prosperent?
+
+Prosperent is an advertising company that specializes in retail and product advertising. With over 3,000 merchants including Nordstrom, Zappos.com, 6pm, Overstock.com, Backcountry, REI and thousands of other retailers, Prosperent makes the best products available through their advertising products, and improves profitability for content publishers.
 
 ### Payments
 
