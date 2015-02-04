@@ -1,6 +1,6 @@
 {
     "category": "affiliate links",
-    "description": "Monetize your content without compromising your site design or user experience with Prosperent ProsperLinks. Once turned on, ProsperLinks will automatically evaluate your on-page content and convert product references to affiliated links that earn you revenue with every sale.",
+    "description": "Monetize your content without compromising your site design or user experience with Prosperent ProsperLinks. Once turned on, ProsperLinks will automatically evaluate your content and convert any direct-to-merchant or direct-to-retailer links into affiliated links that generate revenue with every sale.",
     "keywords": ["affiliate links"],
     "main": "public/javascripts/plink.js",
     "name": "ProsperLinks",
@@ -8,7 +8,7 @@
         "type": "git",
         "url": "https://github.com/prosperent/ProsperLinks-App.git"
     },
-    "version": "0.3.2",
+    "version": "0.3.3",
     "account": {
         "callback_url": "https://prosperent.com/cf",
         "user_fields": ["email"]
@@ -28,36 +28,15 @@
             "Category": "Content Monetization",
             "Language": "English",
             "Price": "Free to install. 70% of revenue paid to website owner.",
-            "Restrictions": "Website owners from all countries are welcome, however it should be known: ads are served from US advertisers and are in English.<br><br>According to the FTC's 16 CFR &sect; 255.5, you are required to disclose your use of revenue generating links to your readers. Read more details <a href='http://prosperent.com/policies/ftc' target='_blank'>here</a>.",
+            "Restrictions": "Website owners from all countries are welcome, however it should be known: matched advertisers are US companies and you will be paid in US dollars.<br><br>According to the FTC's 16 CFR &sect; 255.5, you are required to disclose your use of revenue generating links to your readers. Read more details <a href='http://prosperent.com/policies/ftc' target='_blank'>here</a>.",
             "Prosperent": "<a href='http://prosperent.com/terms' target='_blank'>Terms and Conditions</a>"
         },
         "interface": [
-            {
-                "id": "pl_underline",
+			{
+                "id": "pl_linkOptimizerActive",
                 "type": "select",
-                "name": "Link Underline",
-                "description": "Choose the type of underline the affiliated links will have.",
-                "options": [
-                    {
-                        "label": "Single Underline",
-                        "value": 1,
-                        "selected": true
-                    },
-                    {
-                        "label": "Double Underline",
-                        "value": 2
-                    },
-                    {
-                        "label": "None",
-                        "value": "none"
-                    }
-                ]
-            },
-            {
-                "id": "pl_hoverBox",
-                "type": "select",
-                "name": "Hover Box",
-                "description": "Choose whether the affiliated links utilize a product description hover box.",
+                "name": "Link Optimizer",
+                "description": "Get your existing merchant links to the highest earning sites automatically. This sometimes means that links to one merchant are diverted to a different merchant that carries the same product to make more money.",
                 "options": [
                     {
                         "label": "Off",
@@ -67,89 +46,6 @@
                     {
                         "label": "On",
                         "value": 1
-                    }
-                ]
-            },
-            {
-                "id": "pl_limit",
-                "type": "select",
-                "name": "Link Limit",
-                "description": "Set the maximum number of ProsperLinks to create on any given page.",
-                "options": [
-                    {
-                        "label": "5",
-                        "value": 5,
-                        "selected": true
-                    },
-                    {
-                        "label": "1",
-                        "value": 1
-                    },
-                    {
-                        "label": "2",
-                        "value": 2
-                    },
-                    {
-                        "label": "3",
-                        "value": 3
-                    },
-                    {
-                        "label": "4",
-                        "value": 4
-                    },
-                    {
-                        "label": "6",
-                        "value": 6
-                    },
-                    {
-                        "label": "7",
-                        "value": 7
-                    },
-                    {
-                        "label": "8",
-                        "value": 8
-                    },
-                    {
-                        "label": "9",
-                        "value": 9
-                    },
-                    {
-                        "label": "10",
-                        "value": 10
-                    }
-                ]
-            },
-            {
-                "id": "pl_enableLinkAffiliation",
-                "type": "select",
-                "name": "Link Affiliation",
-                "description": "Choose whether to automatically convert links to external merchants to affiliated links.",
-                "options": [
-                    {
-                        "label": "On",
-                        "value": 1,
-                        "selected": true
-                    },
-                    {
-                        "label": "Off",
-                        "value": 0
-                    }
-                ]
-            },
-            {
-                "id": "pl_hoverAds",
-                "type": "select",
-                "name": "Hover Ads",
-                "description": "As an additional source of revenue, enable our closeable Performance Ads to hover at the bottom of your page.",
-                "options": [
-                    {
-                        "label": "On",
-                        "value": 1,
-                        "selected": true
-                    },
-                    {
-                        "label": "Off",
-                        "value": 0
                     }
                 ]
             }
