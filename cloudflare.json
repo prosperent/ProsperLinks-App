@@ -20,8 +20,8 @@
                 "200px": "./public/images/logo-200.png"
             },
             "detail_page": [
-                "./public/images/plink-example.png",
-                "./public/images/analytics.png"
+                "./public/images/p-plink-example.png",
+                "./public/images/p-analytics.png"
             ]
         },
         "details":{

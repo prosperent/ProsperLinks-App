@@ -1,6 +1,6 @@
 Prosperent ProsperLinks is a very simple way to **earn extra revenue on your content** without diminishing your visitors' experience. It works instantly by analyzing your content and converts any direct-to-merchant or direct-to-retailer links into affiliated links that generate revenue with every sale. You get paid when your visitors make a purchase, even if it is weeks later!
 
-![ProsperLinks example](/images/apps/prosperlinks/plink-example.png)
+![ProsperLinks example](/images/apps/prosperlinks/p-plink-example.png)
 
 ### How It Works
 
@@ -12,7 +12,7 @@ Prosperent ProsperLinks is a very simple way to **earn extra revenue on your con
 
 Dig deeper into your sales data and conversions and find out what it is that your visitors are buying.
 
-![ProsperLinks Analytics](/images/apps/prosperlinks/analytics.png)
+![ProsperLinks Analytics](/images/apps/prosperlinks/p-analytics.png)
 
 ### What is Prosperent?
 
